@@ -1,7 +1,7 @@
 import { Box, Image, Text, Flex } from '@chakra-ui/react';
 import logoOpenAI from '../assets/openai.png';
 
-const footer = () => {
+const Footer = () => {
   return (
     <Box marginTop={50}>
         <Flex justifyContent='center' alignItems='center'>
@@ -15,4 +15,4 @@ const footer = () => {
   )
 }
 
-export default footer
+export default Footer

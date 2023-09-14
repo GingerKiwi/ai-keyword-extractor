@@ -1,7 +1,7 @@
 import { Heading, Image, Text } from '@chakra-ui/react';
 import logo from '../assets/light-bulb.svg'
 
-const header = () => {
+const Header = () => {
   return (
     <>
     <Image src={logo} alt='logo of a yellow lightbulb' width={ 100 } marginBottom='1rem' />
@@ -15,4 +15,4 @@ const header = () => {
   )
 }
 
-export default header
+export default Header
